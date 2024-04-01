@@ -23,6 +23,7 @@
     <Compile Include="DropDown.fs" />
     <Compile Include="InputNumber.fs" />
     <Compile Include="InputText.fs" />
+    <Compile Include="Knob.fs" />
     <Compile Include="TabPanel.fs" />
     <Compile Include="TabView.fs" />
     <Compile Include="Icon.fs" />

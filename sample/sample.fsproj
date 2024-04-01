@@ -11,6 +11,7 @@
     <Compile Include="DataTable\DataTable1.fs" />
     <Compile Include="DataTable\Index.fs" />
     <Compile Include="Dialog\Index.fs" />
+    <Compile Include="Knob\Index.fs" />
     <Compile Include="InputNumber\InputNumber.fs" />
     <Compile Include="InputText\Index.fs" />
     <None Include="index.html" />

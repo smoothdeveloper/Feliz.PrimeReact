@@ -47,6 +47,9 @@ type Prime =
     static member inline tabView(properties: ITabViewProperty list) =
         Interop.reactApi.createElement (import "TabView" "primereact/tabview", createObj !!properties)
 
+    static member inline knob(properties: IKnobProperty list) =
+        Interop.reactApi.createElement (import "Knob" "primereact/knob", createObj !!properties)
+
 [<Erase>]
 type primeClass =
     static member inline Error e = if e then "p-error" else ""

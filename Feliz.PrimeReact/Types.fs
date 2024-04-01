@@ -50,3 +50,5 @@ type ITabPanelProperty =
 type ITabViewProperty =
     interface
     end
+
+type [<Erase>] IKnobProperty = interface end

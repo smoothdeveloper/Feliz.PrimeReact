@@ -16,7 +16,7 @@ module Interop =
     let inline mkInputTextAttr (key: string) (value: obj) : IInputTextProperty = unbox (key, value)
     let inline mkTabPanelAttr (key: string) (value: obj) : ITabPanelProperty = unbox (key, value)
     let inline mkTabViewAttr (key: string) (value: obj) : ITabViewProperty = unbox (key, value)
-
+    let inline mkKnobAttr (key: string) (value: obj) : IKnobProperty = unbox (key,value)
     let inline reactElementWithChildren (name: string) (children: #seq<ReactElement>) =
         let reactApi: IReactApi = importDefault "react"
         let reactElement (name: string) (props: 'a) : ReactElement = import "createElement" "react"

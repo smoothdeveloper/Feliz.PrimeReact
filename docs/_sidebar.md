@@ -11,3 +11,5 @@
     - [TabView](TabView.md)
 - OVERLAY
     - [Dialog](Dialog.md)
+- KNOB
+    - [Knob](Knob.md)

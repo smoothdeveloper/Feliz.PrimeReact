@@ -30,6 +30,13 @@ let Index () =
                         InputNumber.Index()
                     ]
                 ]
+
+                Prime.tabPanel [
+                    tabPanel.header "Knob"
+                    tabPanel.children [
+                        Knob.Index()
+                    ]
+                ]
             ]
         ]
     ]
